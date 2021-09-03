@@ -31,7 +31,7 @@
 				{
 					
 					?>
-					<option value="<?php echo $row['trip_id'] ?>"><?php echo $row['trip_state'] ?></option>
+					<option class="tripMe" value="<?php echo $row['trip_id'] ?>"><?php echo $row['trip_state'] ?></option>
 					<?php
 				}
 			}
